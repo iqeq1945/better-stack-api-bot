@@ -1,0 +1,23 @@
+{
+  "name": "better-stack-api-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "watch": "tsc -w"
+  },
+  "repository": "https://github.com/iqeq1945/better-stack-api-bot.git",
+  "author": "iqeq1945 <iqeq1945@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsc": "^2.0.4",
+    "yarn": "^1.22.22"
+  }
+}
